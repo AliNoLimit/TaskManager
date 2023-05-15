@@ -1,0 +1,12 @@
+/* 
+  LocalizableWord.strings
+  WebMetric_TaskManager
+
+  Created by AliNoLimit on 5/15/23.
+  
+*/
+
+"taskManage" = "task management list";
+"addTask" = "add task";
+"save" = "save";
+"add" = "add";

@@ -1,0 +1,11 @@
+/* 
+  LocalizableMessage.strings
+  WebMetric_TaskManager
+
+  Created by AliNoLimit on 5/15/23.
+  
+*/
+"emptyItem" = "there are no items!";
+"typeHere" = "type something here...";
+"addItem" = "add an Item";
+"minChar" = "your new task item must be at least 3 characters long";

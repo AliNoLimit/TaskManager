@@ -7,22 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392020B32A12286E0045FFCF /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392020B22A12286E0045FFCF /* TaskListView.swift */; };
+		392020B62A1229850045FFCF /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392020B52A1229850045FFCF /* TaskRowView.swift */; };
+		392020BA2A1229DE0045FFCF /* Ex_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392020B92A1229DE0045FFCF /* Ex_String.swift */; };
+		392020C02A122A310045FFCF /* LocalizableMessage.strings in Resources */ = {isa = PBXBuildFile; fileRef = 392020C22A122A310045FFCF /* LocalizableMessage.strings */; };
+		392020C32A122A350045FFCF /* LocalizableWord.strings in Resources */ = {isa = PBXBuildFile; fileRef = 392020C52A122A350045FFCF /* LocalizableWord.strings */; };
+		392020C72A1237E20045FFCF /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392020C62A1237E20045FFCF /* EmptyView.swift */; };
+		392020C92A1238870045FFCF /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392020C82A1238870045FFCF /* AddView.swift */; };
+		392020CC2A1239820045FFCF /* AcceptButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392020CB2A1239820045FFCF /* AcceptButtonStyle.swift */; };
 		3931650F2A1215830079E900 /* WebMetric_TaskManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3931650E2A1215830079E900 /* WebMetric_TaskManagerApp.swift */; };
-		393165112A1215830079E900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393165102A1215830079E900 /* ContentView.swift */; };
 		393165132A1215890079E900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393165122A1215890079E900 /* Assets.xcassets */; };
 		393165162A1215890079E900 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393165152A1215890079E900 /* Preview Assets.xcassets */; };
 		393165182A1215890079E900 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393165172A1215890079E900 /* Persistence.swift */; };
 		3931651B2A1215890079E900 /* WebMetric_TaskManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 393165192A1215890079E900 /* WebMetric_TaskManager.xcdatamodeld */; };
+		39D254FC2A1220D100CB4B12 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D254FB2A1220D100CB4B12 /* ItemModel.swift */; };
+		39D254FE2A12252100CB4B12 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D254FD2A12252100CB4B12 /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		392020B22A12286E0045FFCF /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		392020B52A1229850045FFCF /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		392020B92A1229DE0045FFCF /* Ex_String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ex_String.swift; sourceTree = "<group>"; };
+		392020C12A122A310045FFCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableMessage.strings; sourceTree = "<group>"; };
+		392020C42A122A350045FFCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LocalizableWord.strings; sourceTree = "<group>"; };
+		392020C62A1237E20045FFCF /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		392020C82A1238870045FFCF /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		392020CB2A1239820045FFCF /* AcceptButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcceptButtonStyle.swift; sourceTree = "<group>"; };
 		3931650B2A1215830079E900 /* WebMetric_TaskManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebMetric_TaskManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3931650E2A1215830079E900 /* WebMetric_TaskManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebMetric_TaskManagerApp.swift; sourceTree = "<group>"; };
-		393165102A1215830079E900 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		393165122A1215890079E900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		393165152A1215890079E900 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		393165172A1215890079E900 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3931651A2A1215890079E900 /* WebMetric_TaskManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebMetric_TaskManager.xcdatamodel; sourceTree = "<group>"; };
+		39D254FB2A1220D100CB4B12 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		39D254FD2A12252100CB4B12 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +54,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		392020B42A1229600045FFCF /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				392020B52A1229850045FFCF /* TaskRowView.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		392020B72A1229C10045FFCF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				392020BB2A1229E20045FFCF /* Localize */,
+				392020B82A1229CC0045FFCF /* Extension */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		392020B82A1229CC0045FFCF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				392020B92A1229DE0045FFCF /* Ex_String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		392020BB2A1229E20045FFCF /* Localize */ = {
+			isa = PBXGroup;
+			children = (
+				392020C52A122A350045FFCF /* LocalizableWord.strings */,
+				392020C22A122A310045FFCF /* LocalizableMessage.strings */,
+			);
+			path = Localize;
+			sourceTree = "<group>";
+		};
+		392020CA2A1239300045FFCF /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				392020CB2A1239820045FFCF /* AcceptButtonStyle.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
 		393165022A1215830079E900 = {
 			isa = PBXGroup;
 			children = (
@@ -56,7 +116,11 @@
 			isa = PBXGroup;
 			children = (
 				3931650E2A1215830079E900 /* WebMetric_TaskManagerApp.swift */,
-				393165102A1215830079E900 /* ContentView.swift */,
+				393165212A1215A20079E900 /* Views */,
+				39D254FA2A1220B200CB4B12 /* ViewModel */,
+				39D254F92A1220AA00CB4B12 /* Model */,
+				392020CA2A1239300045FFCF /* Style */,
+				392020B72A1229C10045FFCF /* Resource */,
 				393165122A1215890079E900 /* Assets.xcassets */,
 				393165172A1215890079E900 /* Persistence.swift */,
 				393165192A1215890079E900 /* WebMetric_TaskManager.xcdatamodeld */,
@@ -71,6 +135,33 @@
 				393165152A1215890079E900 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		393165212A1215A20079E900 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				392020B42A1229600045FFCF /* Rows */,
+				392020B22A12286E0045FFCF /* TaskListView.swift */,
+				392020C62A1237E20045FFCF /* EmptyView.swift */,
+				392020C82A1238870045FFCF /* AddView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		39D254F92A1220AA00CB4B12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39D254FB2A1220D100CB4B12 /* ItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39D254FA2A1220B200CB4B12 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				39D254FD2A12252100CB4B12 /* TaskViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +223,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				393165162A1215890079E900 /* Preview Assets.xcassets in Resources */,
+				392020C02A122A310045FFCF /* LocalizableMessage.strings in Resources */,
+				392020C32A122A350045FFCF /* LocalizableWord.strings in Resources */,
 				393165132A1215890079E900 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +236,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392020B32A12286E0045FFCF /* TaskListView.swift in Sources */,
+				39D254FC2A1220D100CB4B12 /* ItemModel.swift in Sources */,
+				392020B62A1229850045FFCF /* TaskRowView.swift in Sources */,
+				39D254FE2A12252100CB4B12 /* TaskViewModel.swift in Sources */,
 				393165182A1215890079E900 /* Persistence.swift in Sources */,
+				392020BA2A1229DE0045FFCF /* Ex_String.swift in Sources */,
+				392020C92A1238870045FFCF /* AddView.swift in Sources */,
+				392020CC2A1239820045FFCF /* AcceptButtonStyle.swift in Sources */,
+				392020C72A1237E20045FFCF /* EmptyView.swift in Sources */,
 				3931651B2A1215890079E900 /* WebMetric_TaskManager.xcdatamodeld in Sources */,
-				393165112A1215830079E900 /* ContentView.swift in Sources */,
 				3931650F2A1215830079E900 /* WebMetric_TaskManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		392020C22A122A310045FFCF /* LocalizableMessage.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392020C12A122A310045FFCF /* en */,
+			);
+			name = LocalizableMessage.strings;
+			sourceTree = "<group>";
+		};
+		392020C52A122A350045FFCF /* LocalizableWord.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				392020C42A122A350045FFCF /* en */,
+			);
+			name = LocalizableWord.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3931651C2A1215890079E900 /* Debug */ = {

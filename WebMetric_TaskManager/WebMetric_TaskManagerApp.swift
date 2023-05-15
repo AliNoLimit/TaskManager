@@ -9,12 +9,16 @@ import SwiftUI
 
 @main
 struct WebMetric_TaskManagerApp: App {
-    let persistenceController = PersistenceController.shared
+    
+    @StateObject var taskViewModel: TaskViewModel = TaskViewModel()
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            NavigationView {
+                TaskListView()
+            }
+            .navigationViewStyle(StackNavigationViewStyle())
+            .environmentObject(taskViewModel)
         }
     }
 }
