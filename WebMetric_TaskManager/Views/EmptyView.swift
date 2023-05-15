@@ -9,16 +9,14 @@ import SwiftUI
 
 struct EmptyView: View {
     var body: some View {
-        NavigationView {
-            VStack(spacing: 40) {
-                Text("emptyItem".localizedMessage.capitalizingFirstLetter())
-                    .font(.title)
-                    .fontWeight(.semibold)
-                
-                NavigationLink(
-                    "addTask".localized.capitalized, destination: AddView())
-                .buttonStyle(AcceptButtonStyle())
-            }
+        VStack(spacing: 40) {
+            Text("emptyItem".localizedMessage.capitalizingFirstLetter())
+                .font(.title)
+                .fontWeight(.semibold)
+            
+            NavigationLink(
+                "addTask".localized.capitalized, destination: AddView())
+            .buttonStyle(AcceptButtonStyle())
         }
     }
 }
